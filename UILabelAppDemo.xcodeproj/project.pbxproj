@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F7B234731DFDBEDA00395583 /* Artifika-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7B234721DFDBEDA00395583 /* Artifika-Regular.ttf */; };
+		F7B234751DFDC18D00395583 /* Pacifico.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7B234741DFDC18D00395583 /* Pacifico.ttf */; };
 		F7CE4B041DFB5096008F891F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CE4B031DFB5096008F891F /* AppDelegate.swift */; };
 		F7CE4B061DFB5096008F891F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CE4B051DFB5096008F891F /* ViewController.swift */; };
 		F7CE4B091DFB5097008F891F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7CE4B071DFB5097008F891F /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F7B234721DFDBEDA00395583 /* Artifika-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Artifika-Regular.ttf"; sourceTree = "<group>"; };
+		F7B234741DFDC18D00395583 /* Pacifico.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pacifico.ttf; sourceTree = "<group>"; };
 		F7CE4B001DFB5096008F891F /* UILabelAppDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UILabelAppDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7CE4B031DFB5096008F891F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7CE4B051DFB5096008F891F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +39,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F7B234711DFDBE0A00395583 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F7B234741DFDC18D00395583 /* Pacifico.ttf */,
+				F7B234721DFDBEDA00395583 /* Artifika-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		F7CE4AF71DFB5096008F891F = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +67,23 @@
 		F7CE4B021DFB5096008F891F /* UILabelAppDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F7ED40811DFDC4E100882373 /* Supporting Files */,
+				F7B234711DFDBE0A00395583 /* Resources */,
 				F7CE4B031DFB5096008F891F /* AppDelegate.swift */,
 				F7CE4B051DFB5096008F891F /* ViewController.swift */,
 				F7CE4B071DFB5097008F891F /* Main.storyboard */,
 				F7CE4B0A1DFB5097008F891F /* Assets.xcassets */,
 				F7CE4B0C1DFB5097008F891F /* LaunchScreen.storyboard */,
-				F7CE4B0F1DFB5097008F891F /* Info.plist */,
 			);
 			path = UILabelAppDemo;
+			sourceTree = "<group>";
+		};
+		F7ED40811DFDC4E100882373 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7CE4B0F1DFB5097008F891F /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +146,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7CE4B0E1DFB5097008F891F /* LaunchScreen.storyboard in Resources */,
+				F7B234751DFDC18D00395583 /* Pacifico.ttf in Resources */,
 				F7CE4B0B1DFB5097008F891F /* Assets.xcassets in Resources */,
+				F7B234731DFDBEDA00395583 /* Artifika-Regular.ttf in Resources */,
 				F7CE4B091DFB5097008F891F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +282,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = UILabelAppDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = shrawan.UILabelAppDemo;
@@ -270,6 +295,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = UILabelAppDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = shrawan.UILabelAppDemo;
@@ -297,6 +323,7 @@
 				F7CE4B141DFB5097008F891F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
